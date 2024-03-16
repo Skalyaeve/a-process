@@ -1,2 +1,2 @@
-# A pentest process
+# A process
 > work in progress
