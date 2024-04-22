@@ -37,7 +37,8 @@
 - [Metasploit](https://github.com/rapid7/metasploit-framework)
 - [Searchsploit](https://gitlab.com/exploit-database/exploitdb)
 
-### Web Applicationt [SQLMap](https://github.com/sqlmapproject/sqlmap)
+### Web Applicationt
+- [SQLMap](https://github.com/sqlmapproject/sqlmap)
 - [Burp Suite](https://portswigger.net/burp)
 
 ### Password Attacks
