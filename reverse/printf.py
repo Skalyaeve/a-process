@@ -5,7 +5,7 @@ import time
 
 login="level05"
 password="3v8QLcN5SAhPaZZfEasfmXdwyR59ktDEMAwHF3aN"
-host="192.168.165.56"
+host="192.168.244.56"
 port=42421
 s=pwn.ssh(login, host, password=password, port=port)
 
