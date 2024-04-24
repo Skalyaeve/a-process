@@ -72,3 +72,4 @@
 - [Ghidra](https://ghidra-sre.org/)
 - [radare2](https://rada.re/r/)
 - [gdb](https://www.gnu.org/software/gdb/)
+
