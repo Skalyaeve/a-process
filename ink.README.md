@@ -75,7 +75,7 @@ ffuf:https://github.com/ffuf/ffuf
 wfuzz:https://github.com/xmendez/wfuzz
 gobuster:https://github.com/OJ/gobuster
 subfinder:https://github.com/projectdiscovery/subfinder
-sudomy:https://github.com/screetsec/Sudomy
+Sudomy:https://github.com/screetsec/Sudomy
 ESD:https://github.com/FeeiCN/ESD?tab=readme-ov-file
 Sublist3r:https://github.com/aboul3la/Sublist3r
 CloudEnum:https://github.com/initstring/cloud_enum
@@ -100,12 +100,12 @@ LinEnum:https://github.com/rebootuser/LinEnum
 linux-smart-enumeration:https://github.com/diego-treitos/linux-smart-enumeration
 enum4linux-ng:https://github.com/cddmp/enum4linux-ng
 WindowsEnum:https://github.com/absolomb/WindowsEnum
-mimikatz:https://github.com/gentilkiwi/mimikatz/wiki
+mimikatz:https://github.com/gentilkiwi/mimikatz
 linPEAS:https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 linux-exploit-suggester:https://github.com/The-Z-Labs/linux-exploit-suggester
 linuxprivchecker:https://github.com/sleventyeleven/linuxprivchecker
 winPEAS:https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS
-PrivEscCheck:https://github.com/itm4n/PrivescCheck
+PrivescCheck:https://github.com/itm4n/PrivescCheck
 windows-privesc-check:https://github.com/pentestmonkey/windows-privesc-check
 RemotePotato0:https://github.com/antonioCoco/RemotePotato0
 tcpdump:https://github.com/the-tcpdump-group/tcpdump
