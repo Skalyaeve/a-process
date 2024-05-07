@@ -4,7 +4,7 @@
 
 #### Infrastructure Enumeration
 
-* Domains: [subfinder](https://github.com/projectdiscovery/subfinder) - [Sublist3r](https://github.com/aboul3la/Sublist3r)
+* Subdomains: [subfinder](https://github.com/projectdiscovery/subfinder) - [Sublist3r](https://github.com/aboul3la/Sublist3r)
 
 * DNS: [dnsrecon](https://github.com/darkoperator/dnsrecon) - [massdns](https://github.com/blechschmidt/massdns) - [subbrute](https://github.com/TheRook/subbrute)
 
@@ -30,7 +30,7 @@
 
 * Sniffing: [tcpdump](https://github.com/the-tcpdump-group/tcpdump) - [termshark](https://github.com/gcla/termshark) - [ettercap](https://github.com/Ettercap/ettercap)
 
-* Spoofing: [bettercap](https://github.com/bettercap/bettercap) - [Responder](https://github.com/SpiderLabs/Responder) - [arpspoof](https://github.com/alandau/arpspoof)
+* Spoofing: [bettercap](https://github.com/bettercap/bettercap) - [arpspoof](https://github.com/alandau/arpspoof)
 
 #### Host Enumeration
 
