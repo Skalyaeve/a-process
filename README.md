@@ -1,6 +1,6 @@
 ## Information Gathering
 
-* OSINT: [theHarvester](https://github.com/laramies/theHarvester) - [recon-ng](https://github.com/lanmaster53/recon-ng) - [shodancli](https://github.com/malinkinsa/shodancli) - [whois](https://github.com/weppos/whois)
+* OSINT: [theHarvester](https://github.com/laramies/theHarvester) - [recon-ng](https://github.com/lanmaster53/recon-ng) - [whois](https://github.com/weppos/whois)
 
 #### Infrastructure Enumeration
 
