@@ -4,9 +4,9 @@
 
 #### Infrastructure Enumeration
 
-* Subdomains: [subfinder](https://github.com/projectdiscovery/subfinder) - [Sublist3r](https://github.com/aboul3la/Sublist3r)
+* Subdomains: [subfinder](https://github.com/projectdiscovery/subfinder) - [Sublist3r](https://github.com/aboul3la/Sublist3r) - [subbrute](https://github.com/TheRook/subbrute)
 
-* DNS: [dnsrecon](https://github.com/darkoperator/dnsrecon) - [massdns](https://github.com/blechschmidt/massdns) - [subbrute](https://github.com/TheRook/subbrute)
+* DNS: [dnsrecon](https://github.com/darkoperator/dnsrecon) - [massdns](https://github.com/blechschmidt/massdns)
 
 * Cloud Services: [cloud_enum](https://github.com/initstring/cloud_enum) - [CloudBrute](https://github.com/0xsha/CloudBrute)
 
