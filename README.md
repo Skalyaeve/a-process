@@ -1,11 +1,11 @@
 ```mermaid
 flowchart LR
-    subgraph post-exploitation[Post Exploitation]
+    subgraph post-exploitation[POST EXPLOITATION]
     direction TB
-        subgraph host-enumeration[Host Enumeration]
+        subgraph host-enumeration[HOST ENUMERATION]
         direction LR
             linux-en[
-                Linux
+                LINUX
                 ----
                 <a href='https://github.com/rebootuser/LinEnum'>LinEnum</a>
 
@@ -14,17 +14,17 @@ flowchart LR
                 <a href='https://github.com/cddmp/enum4linux-ng'>enum4linux-ng</a>
             ]
             windows-en[
-                Windows
+                WINDOWS
                 ----
                 <a href='https://github.com/absolomb/WindowsEnum'>WindowsEnum</a>
 
                 <a href='https://github.com/gentilkiwi/mimikatz'>mimikatz</a>
             ]
         end
-        subgraph privilege-escalation[Privilege Escalation]
+        subgraph privilege-escalation[PRIVILEGE ESCALATION]
         direction LR
             linux-pe[
-                Linux
+                LINUX
                 ----
                 <a href='https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS'>linPEAS</a>
 
@@ -33,7 +33,7 @@ flowchart LR
                 <a href='https://github.com/sleventyeleven/linuxprivchecker'>linuxprivchecker</a>
             ]
             windows-pe[
-                Windows
+                WINDOWS
                 ----
                 <a href='https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS'>winPEAS</a>
 
@@ -45,7 +45,7 @@ flowchart LR
             ]
         end
         sniffing[
-            Sniffing
+            SNIFFING
             ----
             <a href='https://github.com/the-tcpdump-group/tcpdump'>tcpdump</a>
 
@@ -54,7 +54,7 @@ flowchart LR
             <a href='https://github.com/Ettercap/ettercap'>ettercap</a>
         ]
         spoofing[
-            Spoofing
+            SPOOFING
             ----
             <a href='https://github.com/bettercap/bettercap'>bettercap</a>
 
@@ -63,17 +63,17 @@ flowchart LR
             <a href='https://github.com/alandau/arpspoof'>arpspoof</a>
         ]
     end
-    subgraph exploitation[Exploitation]
+    subgraph exploitation[EXPLOITATION]
     direction TB
         host-services[
-            Host Services
+            HOST SERVICES
             ----
             <a href='https://gitlab.com/exploit-database/exploitdb'>searchsploit</a>
 
             <a href='https://github.com/rapid7/metasploit-framework'>metasploit-framework</a>
         ]
         webapp[
-            WebApp
+            WEBAPP
             ----
             <a href='https://github.com/sqlmapproject/sqlmap'>sqlmap
 
@@ -88,7 +88,7 @@ flowchart LR
             <a href='https://github.com/dionach/CMSmap'>CMSmap</a>
         ]
         password-attack[
-            Password Attack
+            PASSWORD ATTACK
             ----
             <a href='https://github.com/hashcat/hashcat'>hashcat</a>
 
@@ -97,7 +97,7 @@ flowchart LR
             <a href='https://github.com/vanhauser-thc/thc-hydra'>thc-hydra</a>
         ]
     end
-    subgraph information-gathering[Information Gathering]
+    subgraph information-gathering[INFORMATION GATHERING]
     direction TB
         osint[
             OSINT
@@ -110,10 +110,10 @@ flowchart LR
 
             <a href='https://github.com/weppos/whois'>whois</a>
         ]
-        subgraph infrastructure-enumeration[Infrastructure Enumeration]
+        subgraph infrastructure-enumeration[INFRASTRUCTURE ENUMERATION]
         direction LR
             domains[
-                Domains
+                DOMAINS
                 ----
                 <a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
 
@@ -131,24 +131,24 @@ flowchart LR
                 <a href='https://github.com/TheRook/subbrute'>subbrute</a>
             ]
             cloud[
-                Cloud Services
+                CLOUD SERVICES
                 ----
                 <a href='https://github.com/initstring/cloud_enum'>cloud_enum</a>
 
                 <a href='https://github.com/0xsha/CloudBrute'>cloudbrute</a>
             ]
             host[
-                Host Services
+                HOST SERVICES
                 ----
                 <a href='https://github.com/nmap/nmap'>nmap</a>
 
                 <a href='https://github.com/robertdavidgraham/masscan'>masscan</a>
             ]
         end
-        subgraph webapp-enumeration[WebApp Enumeration]
+        subgraph webapp-enumeration[WEBAPP ENUMERATION]
         direction LR
             scanning[
-                Scanning
+                SCANNING
                 ----
                 <a href='https://github.com/urbanadventurer/WhatWeb'>whatweb</a>
 
@@ -159,7 +159,7 @@ flowchart LR
                 <a href='https://github.com/michenriksen/aquatone'>aquatone</a>
             ]
             fuzzing[
-                Fuzzing
+                FUZZING
                 ----
                 <a href='https://github.com/ffuf/ffuf'>ffuf</a>
 
@@ -170,10 +170,28 @@ flowchart LR
         end
     end
 style information-gathering fill:#080808,stroke:#ff8080
+style osint fill:#121212,stroke:#a0a0a0
 style infrastructure-enumeration fill:#080808,stroke:#606060
+style domains fill:#121212,stroke:#a0a0a0
+style dns fill:#121212,stroke:#a0a0a0
+style cloud fill:#121212,stroke:#a0a0a0
+style host fill:#121212,stroke:#a0a0a0
 style webapp-enumeration fill:#080808,stroke:#606060
+style scanning fill:#121212,stroke:#a0a0a0
+style fuzzing fill:#121212,stroke:#a0a0a0
+
 style exploitation fill:#080808,stroke:#8080ff
+style host-services fill:#121212,stroke:#a0a0a0
+style webapp fill:#121212,stroke:#a0a0a0
+style password-attack fill:#121212,stroke:#a0a0a0
+
 style post-exploitation fill:#080808,stroke:#80ff80
 style host-enumeration fill:#080808,stroke:#606060
+style linux-en fill:#121212,stroke:#a0a0a0
+style windows-en fill:#121212,stroke:#a0a0a0
 style privilege-escalation fill:#080808,stroke:#606060
+style linux-pe fill:#121212,stroke:#a0a0a0
+style windows-pe fill:#121212,stroke:#a0a0a0
+style sniffing fill:#121212,stroke:#a0a0a0
+style spoofing fill:#121212,stroke:#a0a0a0
 ```
