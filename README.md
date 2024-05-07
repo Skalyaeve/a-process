@@ -9,16 +9,16 @@ flowchart LR
                 ----
                 <a href='https://github.com/rebootuser/LinEnum'>LinEnum</a>
 
-                <a href='https://github.com/diego-treitos/linux-smart-enumeration'>LinuxSmartEnumeration</a>
+                <a href='https://github.com/diego-treitos/linux-smart-enumeration'>linux-smart-enum</a>
 
-                <a href='https://github.com/cddmp/enum4linux-ng'>Enum4Linux</a>
+                <a href='https://github.com/cddmp/enum4linux-ng'>enum4linux-ng</a>
             ]
             windows-en[
                 Windows
                 ----
                 <a href='https://github.com/absolomb/WindowsEnum'>WindowsEnum</a>
 
-                <a href='https://github.com/gentilkiwi/mimikatz/wiki'>Mimikatz</a>
+                <a href='https://github.com/gentilkiwi/mimikatz'>mimikatz</a>
             ]
         end
         subgraph privilege-escalation[Privilege Escalation]
@@ -26,20 +26,20 @@ flowchart LR
             linux-pe[
                 Linux
                 ----
-                <a href='https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS'>LinPEAS</a>
+                <a href='https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS'>linPEAS</a>
 
-                <a href='https://github.com/The-Z-Labs/linux-exploit-suggester'>LinuxExploitSuggester</a>
+                <a href='https://github.com/The-Z-Labs/linux-exploit-suggester'>linux-exploit-suggester</a>
 
-                <a href='https://github.com/sleventyeleven/linuxprivchecker'>LinuxPrivChecker</a>
+                <a href='https://github.com/sleventyeleven/linuxprivchecker'>linuxprivchecker</a>
             ]
             windows-pe[
                 Windows
                 ----
-                <a href='https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS'>WinPEAS</a>
+                <a href='https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS'>winPEAS</a>
 
-                <a href='https://github.com/itm4n/PrivescCheck'>PrivescChec</a>
+                <a href='https://github.com/itm4n/PrivescCheck'>PrivescCheck</a>
 
-                <a href='https://github.com/pentestmonkey/windows-privesc-check'>Windows-PrivEsc-Check</a>
+                <a href='https://github.com/pentestmonkey/windows-privesc-check'>windows-privesc-check</a>
 
                 <a href='https://github.com/antonioCoco/RemotePotato0'>RemotePotato0</a>
             ]
@@ -47,20 +47,20 @@ flowchart LR
         sniffing[
             Sniffing
             ----
-            <a href='https://github.com/the-tcpdump-group/tcpdump'>TCPdump</a>
+            <a href='https://github.com/the-tcpdump-group/tcpdump'>tcpdump</a>
 
-            <a href='https://github.com/gcla/termshark'>Tshark</a>
+            <a href='https://github.com/gcla/termshark'>termshark</a>
 
-            <a href='https://github.com/Ettercap/ettercap'>Ettercap</a>
+            <a href='https://github.com/Ettercap/ettercap'>ettercap</a>
         ]
         spoofing[
             Spoofing
             ----
-            <a href='https://github.com/bettercap/bettercap'>Bettercap</a>
+            <a href='https://github.com/bettercap/bettercap'>bettercap</a>
 
             <a href='https://github.com/SpiderLabs/Responder'>Responder</a>
 
-            <a href='https://github.com/alandau/arpspoof'>ARPspoof</a>
+            <a href='https://github.com/alandau/arpspoof'>arpspoof</a>
         ]
     end
     subgraph exploitation[Exploitation]
@@ -68,33 +68,33 @@ flowchart LR
         host-services[
             Host Services
             ----
-            searchsploit
+            <a href='https://gitlab.com/exploit-database/exploitdb'>searchsploit</a>
 
-            <a href='https://github.com/rapid7/metasploit-framework'>MSF</a>
+            <a href='https://github.com/rapid7/metasploit-framework'>metasploit-framework</a>
         ]
         webapp[
             WebApp
             ----
-            sqlmap
+            <a href='https://github.com/sqlmapproject/sqlmap'>sqlmap
 
             <a href='https://github.com/s0md3v/XSStrike'>XSStrike</a>
 
-            <a href='https://github.com/epsylon/xsser'>XSSer</a>
+            <a href='https://github.com/epsylon/xsser'>xsser</a>
 
-            wpscan
+            <a href='https://github.com/wpscanteam/wpscan'>wpscan</a>
 
-            CMSeek
+            <a href='https://github.com/Tuhinshubhra/CMSeeK'>CMSeeK</a>
 
             <a href='https://github.com/dionach/CMSmap'>CMSmap</a>
         ]
         password-attack[
             Password Attack
             ----
-            hashcat
+            <a href=''>hashcat</a>
 
-            <a href='https://github.com/openwall/john'>JohnTheRipper</a>
+            <a href='https://github.com/openwall/john'>john</a>
 
-            <a href='https://github.com/vanhauser-thc/thc-hydra'>Hydra</a>
+            <a href='https://github.com/vanhauser-thc/thc-hydra'>thc-hydra</a>
         ]
     end
     subgraph information-gathering[Information Gathering]
@@ -102,49 +102,47 @@ flowchart LR
         osint[
             OSINT
             ----
-            theHarvester
+            <a href='https://github.com/laramies/theHarvester'>theHarvester</a>
 
-            recon-ng
+            <a href='https://github.com/lanmaster53/recon-ng'>recon-ng</a>
 
-            shodancli
+            <a href='https://github.com/malinkinsa/shodancli'>shodancli</a>
 
-            whois
+            <a href='https://github.com/weppos/whois'>whois</a>
         ]
         subgraph infrastructure-enumeration[Infrastructure Enumeration]
         direction LR
             domains[
                 Domains
                 ----
-                subfinder
+                <a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
 
-                sudomy
+                <a href='https://github.com/screetsec/Sudomy'>sudomy</a>
 
-                <a href='https://github.com/FeeiCN/ESD?tab=readme-ov-file'>ESD</a>
-
-                sublist3r
+                <a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
             ]
             dns[
                 DNS
                 ----
-                dnsrecon
+                <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>
 
-                <a href='https://github.com/blechschmidt/massdns'>massDNS</a>
+                <a href='https://github.com/blechschmidt/massdns'>massdns</a>
 
-                subbrute
+                <a href='https://github.com/TheRook/subbrute'>subbrute</a>
             ]
             cloud[
                 Cloud Services
                 ----
-                cloud_enum
+                <a href='https://github.com/initstring/cloud_enum'>cloud_enum</a>
 
-                cloudbrute
+                <a href='https://github.com/0xsha/CloudBrute'>cloudbrute</a>
             ]
             host[
                 Host Services
                 ----
-                nmap
+                <a href='https://github.com/nmap/nmap'>nmap</a>
 
-                masscan
+                <a href='https://github.com/robertdavidgraham/masscan'>masscan</a>
             ]
         end
         subgraph webapp-enumeration[WebApp Enumeration]
@@ -152,22 +150,22 @@ flowchart LR
             scanning[
                 Scanning
                 ----
-                whatweb
+                <a href='https://github.com/urbanadventurer/WhatWeb'>whatweb</a>
 
-                nikto
+                <a href='https://github.com/sullo/nikto'>nikto</a>
 
-                wafw00f
+                <a href='https://github.com/EnableSecurity/wafw00f'>wafw00f</a>
 
-                aquatone
+                <a href='https://github.com/michenriksen/aquatone'>aquatone</a>
             ]
             fuzzing[
                 Fuzzing
                 ----
-                ffuf
+                <a href='https://github.com/ffuf/ffuf'>ffuf</a>
 
-                wfuzz
+                <a href='https://github.com/xmendez/wfuzz'>wfuzz</a>
 
-                gobuster
+                <a href='https://github.com/OJ/gobuster'>gobuster</a>
             ]
         end
     end
