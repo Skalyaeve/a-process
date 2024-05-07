@@ -1,123 +1,46 @@
 ```mermaid
-flowchar TB
-    subgraph Information Gathering
-    direction LR
-        osint[
-            OSINT
-            -----
-            theHarvester
-            recon-ng
-            shodancli
-            whois
-        ]
-        subgraph Infrastructure Enumeration
-        direction TB
-            domains[
-                Domains
-                -------
-                subfinder
-                sudomy
-                ESD
-                sublist3r
-            ]
-            dns[
-                DNS
-                ---
-                dnsrecon
-                massDNS
-                subbrute
-            ]
-            cloud[
-                Cloud Services
-                --------------
-                cloud_enum
-                cloudbrute
-            ]
-            host[
-                Host Services
-                -------------
-                nmap
-                masscan
-            ]
-        end
-        subgraph WebApp Enumeration
-        direction TB
-            scanning[
-                Scanning
-                -------
-                whatweb
-                nikto
-                wafw00f
-                aquatone
-            ]
-            fuzzing[
-                Fuzzing
-                -------
-                ffuf
-                wfuzz
-                gobuster
-            ]
-        end
-    end
-    subgraph "Exploitation"
-    direction LR
-        host-services[
-            Host Services
-            -------------
-            searchsploit
-            MSF
-        ]
-        webapp[
-            WebApp
-            ------
-            sqlmap
-            XSStrike
-            XSSer
-            wpscan
-            CMSeek
-            CMSmap
-        ]
-        password-attack[
-            Password Attack
-            ---------------
-            hashcat
-            JohnTheRipper
-            Hydra
-        ]
-    end
+graph LR
     subgraph "Post Exploitation"
-    direction LR
+    direction TB
         subgraph Host Enumeration
-        direction TB
+        direction LR
             linux-en[
                 Linux
                 -----
                 LinEnum
+
                 LinuxSmartEnumeration
+
                 Enum4Linux
             ]
             windows-en[
                 Windows
                 -------
                 WindowsEnum
+
                 Mimikatz
             ]
         end
         subgraph Privilege Escalation
-        direction TB
+        direction LR
             linux-pe[
                 Linux
                 -----
                 LinPEAS
+
                 LinuxExploitSuggester
+
                 LinuxPrivChecker
             ]
             windows-pe[
                 Windows
                 -------
                 WinPEAS
+
                 PrivescChec
+
                 Windows-PrivEsc-Check
+
                 RemotePotato0
             ]
         end
@@ -125,18 +48,129 @@ flowchar TB
             Sniffing
             --------
             TCPdump
+
             Tshark
+
             Ettercap
         ]
         spoofing[
             Spoofing
             --------
             Bettercap
+
             Responder
+
             ARPspoof
         ]
     end
-end
+    subgraph "Exploitation"
+    direction TB
+        host-services[
+            Host Services
+            -------------
+            searchsploit
+
+            MSF
+        ]
+        webapp[
+            WebApp
+            ------
+            sqlmap
+
+            XSStrike
+
+            XSSer
+
+            wpscan
+
+            CMSeek
+
+            CMSmap
+        ]
+        password-attack[
+            Password Attack
+            ---------------
+            hashcat
+
+            JohnTheRipper
+
+            Hydra
+        ]
+    end
+    subgraph Information Gathering
+    direction TB
+        osint[
+            OSINT
+            -----
+            theHarvester
+
+            recon-ng
+
+            shodancli
+
+            whois
+        ]
+        subgraph Infrastructure Enumeration
+        direction LR
+            domains[
+                Domains
+                -------
+                subfinder
+
+                sudomy
+
+                ESD
+
+                sublist3r
+            ]
+            dns[
+                DNS
+                ---
+                dnsrecon
+
+                massDNS
+
+                subbrute
+            ]
+            cloud[
+                Cloud Services
+                --------------
+                cloud_enum
+
+                cloudbrute
+            ]
+            host[
+                Host Services
+                -------------
+                nmap
+
+                masscan
+            ]
+        end
+        subgraph WebApp Enumeration
+        direction LR
+            scanning[
+                Scanning
+                -------
+                whatweb
+
+                nikto
+
+                wafw00f
+
+                aquatone
+            ]
+            fuzzing[
+                Fuzzing
+                -------
+                ffuf
+
+                wfuzz
+
+                gobuster
+            ]
+        end
+    end
 ```
 
 ## Information Gathering
