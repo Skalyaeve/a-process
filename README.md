@@ -1,5 +1,5 @@
 ```mermaid
-flowchar TB
+flowchart TB
     subgraph information-gathering[Information Gathering]
     direction LR
         osint[
