@@ -100,4 +100,4 @@ arpspoof:https://github.com/alandau/arpspoof
 
 Responder:https://github.com/SpiderLabs/Responder
 
-> `dst=README.md; cp base.$dst $dst; while read line; do x=$(cut -d: -f1 <<< $line); y=$(cut -d: -f2- <<< $line); sed -i "s;⠀$x;⠀<a href='$y'>$x</a>;" $dst;done< <(grep ':http' links.$dst | grep -v '^>')`
+> `dst=README.md; cp base.$dst $dst; while read line; do x=$(cut -d: -f1 <<< $line); y=$(cut -d: -f2- <<< $line); sed -i "s; $x; <a href='$y'>$x</a>;" $dst;done< <(grep ':http' links.$dst | grep -v '^>')`
