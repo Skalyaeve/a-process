@@ -1,4 +1,4 @@
-# Information Gathering
+## Information Gathering
 
 * OSINT: [theHarvester](https://github.com/laramies/theHarvester) - [recon-ng](https://github.com/lanmaster53/recon-ng) - [shodancli](https://github.com/malinkinsa/shodancli) - [whois](https://github.com/weppos/whois)
 
@@ -18,7 +18,7 @@
 
 * Fuzzing: [ffuf](https://github.com/ffuf/ffuf) - [wfuzz](https://github.com/xmendez/wfuzz) - [gobuster](https://github.com/OJ/gobuster)
 
-# Exploitation
+## Exploitation
 
 * Host Services: [searchsploit](https://gitlab.com/exploit-database/exploitdb) - [metasploit-framework](https://github.com/rapid7/metasploit-framework)
 
@@ -26,7 +26,7 @@
 
 * Password Attack: [hashcat](https://github.com/hashcat/hashcat) - [john](https://github.com/openwall/john) - [thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
 
-# Post Exploitation
+## Post Exploitation
 
 * Sniffing: [tcpdump](https://github.com/the-tcpdump-group/tcpdump) - [termshark](https://github.com/gcla/termshark) - [ettercap](https://github.com/Ettercap/ettercap)
 
