@@ -2,7 +2,7 @@
 
 * OSINT: [theHarvester](https://github.com/laramies/theHarvester) - [recon-ng](https://github.com/lanmaster53/recon-ng) - [shodancli](https://github.com/malinkinsa/shodancli) - [whois](https://github.com/weppos/whois)
 
-### Infrastructure Enumeration
+#### Infrastructure Enumeration
 
 * Domains: [subfinder](https://github.com/projectdiscovery/subfinder) - [Sublist3r](https://github.com/aboul3la/Sublist3r)
 
@@ -12,7 +12,7 @@
 
 * Host Services: [nmap](https://github.com/nmap/nmap) - [masscan](https://github.com/robertdavidgraham/masscan)
 
-### WebApp Enumeration
+#### WebApp Enumeration
 
 * Scanning: [WhatWeb](https://github.com/urbanadventurer/WhatWeb) - [nikto](https://github.com/sullo/nikto) - [wafw00f](https://github.com/EnableSecurity/wafw00f)
 
@@ -32,13 +32,13 @@
 
 * Spoofing: [bettercap](https://github.com/bettercap/bettercap) - [Responder](https://github.com/SpiderLabs/Responder) - [arpspoof](https://github.com/alandau/arpspoof)
 
-### Host Enumeration
+#### Host Enumeration
 
 * Linux: [LinEnum](https://github.com/rebootuser/LinEnum) - [linux-smart-enumeration](https://github.com/diego-treitos/linux-smart-enumeration) - [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
 
 * Windows: [WindowsEnum](https://github.com/absolomb/WindowsEnum) - [mimikatz](https://github.com/gentilkiwi/mimikatz)
 
-### Privilege Escalation
+#### Privilege Escalation
 
 * Linux: [linPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) - [linux-exploit-suggester](https://github.com/The-Z-Labs/linux-exploit-suggester) - [linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker)
 
