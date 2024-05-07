@@ -169,11 +169,11 @@ flowchart LR
             ]
         end
     end
-style information-gathering fill:#080808
-style infrastructure-enumeration fill:#080808
-style webapp-enumeration fill:#080808
-style exploitation fill:#080808
-style post-exploitation fill:#080808
-style host-enumeration fill:#080808
-style privilege-escalation fill:#080808
+style information-gathering fill:#080808,stroke:#ff8080
+style infrastructure-enumeration fill:#080808,stroke:#606060
+style webapp-enumeration fill:#080808,stroke:#606060
+style exploitation fill:#080808,stroke:#8080ff
+style post-exploitation fill:#080808,stroke:#80ff80
+style host-enumeration fill:#080808,stroke:#606060
+style privilege-escalation fill:#080808,stroke:#606060
 ```
