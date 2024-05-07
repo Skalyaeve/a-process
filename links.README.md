@@ -66,7 +66,7 @@ thc-hydra:https://github.com/vanhauser-thc/thc-hydra
 
 LinEnum:https://github.com/rebootuser/LinEnum
 
-linux-smart-enumeration:https://github.com/diego-treitos/linux-smart-enumeration
+linux-smart-enum:https://github.com/diego-treitos/linux-smart-enumeration
 
 enum4linux-ng:https://github.com/cddmp/enum4linux-ng
 
