@@ -103,9 +103,9 @@ post-exploitation[
 ║⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛⠀║
 ╚════════════════════════════════════════════════════╝
 ]
-render[
-RENDER
-]
+render((
+⠀⠀RENDER⠀⠀
+))
 style information-gathering fill:#121212,stroke:#ffff00
 style exploitation fill:#121212,stroke:#0000ff
 style post-exploitation fill:#121212,stroke:#00ff00
