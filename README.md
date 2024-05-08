@@ -2,7 +2,7 @@
 
 * OSINT: [theHarvester](https://github.com/laramies/theHarvester) - [recon-ng](https://github.com/lanmaster53/recon-ng) - [whois](https://github.com/weppos/whois)
 
-#### Infrastructure Enumeration
+#### Infrastructure
 
 * Subdomains: [subfinder](https://github.com/projectdiscovery/subfinder) - [Sublist3r](https://github.com/aboul3la/Sublist3r) - [subbrute](https://github.com/TheRook/subbrute)
 
@@ -12,7 +12,7 @@
 
 * Host Services: [nmap](https://github.com/nmap/nmap) - [masscan](https://github.com/robertdavidgraham/masscan)
 
-#### WebApp Enumeration
+#### WebApp
 
 * Scanning: [WhatWeb](https://github.com/urbanadventurer/WhatWeb) - [nikto](https://github.com/sullo/nikto) - [wafw00f](https://github.com/EnableSecurity/wafw00f)
 
