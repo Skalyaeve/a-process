@@ -38,7 +38,7 @@
 
 * Windows: [WindowsEnum](https://github.com/absolomb/WindowsEnum) - [mimikatz](https://github.com/gentilkiwi/mimikatz)
 
-#### Privilege escalation
+#### PrivEsc
 
 * Linux: [linPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) - [linux-exploit-suggester](https://github.com/The-Z-Labs/linux-exploit-suggester) - [linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker)
 
