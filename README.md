@@ -8,7 +8,7 @@
 
 * DNS: [dnsrecon](https://github.com/darkoperator/dnsrecon) - [massdns](https://github.com/blechschmidt/massdns)
 
-* Cloud Services: [cloud_enum](https://github.com/initstring/cloud_enum) - [CloudBrute](https://github.com/0xsha/CloudBrute)
+* Cloud Services: [cloud-enum](https://salsa.debian.org/pkg-security-team/cloud-enum) - [CloudBrute](https://github.com/0xsha/CloudBrute)
 
 * Host Services: [nmap](https://github.com/nmap/nmap) - [masscan](https://github.com/robertdavidgraham/masscan)
 
