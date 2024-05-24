@@ -43,3 +43,4 @@
 * Linux: [linPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) - [linux-exploit-suggester](https://github.com/The-Z-Labs/linux-exploit-suggester) - [linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker)
 
 * Windows: [winPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS) - [PrivescCheck](https://github.com/itm4n/PrivescCheck) - [windows-privesc-check](https://github.com/pentestmonkey/windows-privesc-check)
+
